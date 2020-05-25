@@ -8,12 +8,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import dto.Emp;
 import dto.Member;
 import service.MemberService;
 import service.MemberServiceImpl;
-import service.face.EmpService;
-import service.impl.EmpServiceImpl;
 
 /**
  * Servlet implementation class MemberController
