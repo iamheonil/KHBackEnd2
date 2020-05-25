@@ -33,9 +33,14 @@ td:hover {
 
 <script type="text/javascript">
 	$(document).ready(function() {
+		
+		/* $("#name").click(function() {
+			
+			console.log("확인")
+		
+		}) */
 
-		$("#name").mousedown(console.log('hi'));
-
+			
 	});
 </script>
 
@@ -45,12 +50,22 @@ td:hover {
 	<h1>EMP 리스트</h1>
 	<hr>
 	<table id="list">
+	<tr>
+	<th>사원번호</th>
+	<th>사원이름</th>
+	<th>직무</th>
+	<th>매니저</th>
+	<th>입사날짜</th>
+	<th>급여</th>
+	<th>상여금</th>
+	<th>부서번호</th>
+	</tr>
 		<%
 			for (int i = 0; i < eList.size(); i++) {
 		%>
 		<tr>
 			<td><%=eList.get(i).getEmpno()%></td>
-			<td id="name"><%=eList.get(i).getEname()%></td>
+			<td id="name"><a href="/emp/detail?eno=<%=eList.get(i).getEmpno()%>"><%=eList.get(i).getEname()%></td>
 			<td><%=eList.get(i).getJob()%></td>
 			<td><%=eList.get(i).getMgr()%></td>
 			<td><%=eList.get(i).getHiredate()%></td>
@@ -62,6 +77,9 @@ td:hover {
 			}
 		%>
 	</table>
+	<br>
+	
+	<button onclick="location.href='/emp/insert'">사원추가</button>
 
 </body>
 </html>
