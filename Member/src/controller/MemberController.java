@@ -41,7 +41,12 @@ public class MemberController extends HttpServlet {
 		System.out.println(member);
 
 		// DB에 사원정보 추가
-//		memberService.join(member);
+		memberService.join(member);
+		
+		// VIEW 에다가 보내주기
+		req.setAttribute("res", member);
 
+		req.getRequestDispatcher("/WEB-INF/views/member/result.jsp").forward(req, resp);
+		
 	}
 }

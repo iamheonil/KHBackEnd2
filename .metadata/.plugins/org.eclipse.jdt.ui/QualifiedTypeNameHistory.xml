@@ -7,4 +7,10 @@
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="service.MemberServiceImpl"/>
+<fullyQualifiedTypeName name="dto.Member"/>
+<fullyQualifiedTypeName name="service.MemberService"/>
+<fullyQualifiedTypeName name="dao.MemberDaoImpl"/>
+<fullyQualifiedTypeName name="dao.MemberDao"/>
+<fullyQualifiedTypeName name="dbutil.DBConn"/>
 </qualifiedTypeNameHistroy>

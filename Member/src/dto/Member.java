@@ -2,15 +2,23 @@ package dto;
 
 public class Member {
 
+	private int userno;
 	private String id;
 	private String nickname;
 	private String email;
+	
 
-	public Member(String id, String nickname, String email) {
-		super();
-		this.id = id;
-		this.nickname = nickname;
-		this.email = email;
+	@Override
+	public String toString() {
+		return "Member [userno=" + userno + ", id=" + id + ", nickname=" + nickname + ", email=" + email + "]";
+	}
+
+	public int getUserno() {
+		return userno;
+	}
+
+	public void setUserno(int userno) {
+		this.userno = userno;
 	}
 
 	public String getId() {

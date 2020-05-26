@@ -4,6 +4,6 @@ import dto.Member;
 
 public interface MemberDao {
 
-	public Member join();
+	public void joiner(Member member);
 	
 }
