@@ -17,6 +17,14 @@ public class MemberDaoImpl implements MemberDao {
 	private ResultSet rs = null;
 
 	@Override
+	public int selectNextUserno() {
+
+		
+		
+		return 0;
+	}
+
+	@Override
 	public void joiner(Member member) {
 
 		conn = DBConn.getConnection();
@@ -38,7 +46,8 @@ public class MemberDaoImpl implements MemberDao {
 			e.printStackTrace();
 		} finally {
 			try {
-				if(ps != null) ps.close();
+				if (ps != null)
+					ps.close();
 			} catch (SQLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

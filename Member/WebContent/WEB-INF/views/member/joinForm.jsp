@@ -9,9 +9,9 @@
 <body>
 
 	<form action="/member/join" method="post">
-		아이디 : <input type="text" id="uid" name="uid"> <br>
-		닉네임 : <input type="text" id="unick" name="unick"> <br>
-		이메일 : <input type="email" id="uemail" name="uemail"> <br>
+		아이디 : <input type="text" id="uid" name="uid" required="required"> <br>
+		닉네임 : <input type="text" id="unick" name="unick" required="required"> <br>
+		이메일 : <input type="email" id="uemail" name="uemail" required="required"> <br>
 		<br>
 		<input type="submit" value="전송하기">
 	</form>
