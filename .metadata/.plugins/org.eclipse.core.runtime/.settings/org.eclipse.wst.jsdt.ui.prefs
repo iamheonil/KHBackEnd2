@@ -1,6 +1,6 @@
 eclipse.preferences.version=1
 fontPropagated=true
-org.eclipse.jface.textfont=1|D2Coding|14.25|0|WINDOWS|1|-19|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding;
+org.eclipse.jface.textfont=1|D2Coding|16.0|0|COCOA|1|;
 org.eclipse.wst.jsdt.internal.ui.navigator.layout=2
 org.eclipse.wst.jsdt.ui.editor.tab.width=
 org.eclipse.wst.jsdt.ui.formatterprofiles.version=11

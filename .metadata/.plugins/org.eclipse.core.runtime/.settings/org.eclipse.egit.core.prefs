@@ -1,3 +1,3 @@
-GitRepositoriesView.GitDirectories=C\:\\KHBackEnd\\.git;C\:\\KHFrontEnd\\.git;
-GitRepositoriesView.GitDirectories.relative=.git;C\:\\KHFrontEnd\\.git;
+GitRepositoriesView.GitDirectories=/Users/heonil/Documents/KHFrontEnd/.git\:/Users/heonil/Documents/KHBackEnd/\\KHFrontEnd\\.git;\:/Users/heonil/Documents/KHBackEnd/.git\:/Users/heonil/Documents/KHBackEnd/.git;C\:
+GitRepositoriesView.GitDirectories.relative=/Users/heonil/Documents/KHFrontEnd/.git\:\\KHFrontEnd\\.git;\:.git\:.git;C\:
 eclipse.preferences.version=1
