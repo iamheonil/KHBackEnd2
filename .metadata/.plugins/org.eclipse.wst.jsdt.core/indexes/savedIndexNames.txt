@@ -1,7 +1,2 @@
-INDEX VERSION 1.4+/Users/heonil/Documents/KHBackEnd/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-3845266415.index
-1462452793.index
-1880946314.index
-3581223916.index
-1914886377.index
-2528806170.index
+INDEX VERSION 1.4+C:\KHBackEnd\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2196909853.index
