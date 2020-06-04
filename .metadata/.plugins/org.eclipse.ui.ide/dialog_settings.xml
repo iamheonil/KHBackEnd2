@@ -7,6 +7,11 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\HEONIL\Desktop\강사님 소스\20200603_1\20200603_02_파일리스트까지 프로젝트 소스코드\Fileupload"/>
+			<item value="C:\KHBackEnd\JSP"/>
+			<item value="C:\KHBackEnd\listpage"/>
+			<item value="C:\KHBackEnd\Emp"/>
+			<item value="C:\KHBackEnd\Fileupload"/>
 			<item value="/Users/heonil/Documents/KHBackEnd/Fileupload"/>
 			<item value="/Users/heonil/Documents/KHFrontEnd/Fileupload"/>
 			<item value="C:\KHFrontEnd\Emp"/>
