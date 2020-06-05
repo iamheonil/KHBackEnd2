@@ -25,13 +25,10 @@ public class SessionCreateServlet extends HttpServlet {
 		HttpSession session = request.getSession();
 
 		// 세션 정보 저장
-		session.setAttribute("test", "Apple");
+		session.setAttribute("loginUser", "홍길동");
 
 		// View 지정하기
-		request.getRequestDispatcher("/WEB-INF/views/session/create.jsp").forward(request, response);
-		
-		System.out.println("컴온 확인");
-
+		request.getRequestDispatcher("/WEB-INF/views/logout.jsp").forward(request, response);
 		
 		
 	}

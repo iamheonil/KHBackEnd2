@@ -7,7 +7,14 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\HEONIL\Desktop\강사님 소스\20200525"/>
+			<item value="C:\Users\HEONIL\Desktop\강사님 소스\20200528\20200528_05_EL까지 소스코드"/>
 			<item value="C:\Users\HEONIL\Desktop\강사님 소스\20200603_1\20200603_02_파일리스트까지 프로젝트 소스코드\Fileupload"/>
+			<item value="C:\KHBackEnd\Friday"/>
+			<item value="C:\KHBackEnd\WebTest"/>
+			<item value="C:\KHBackEnd\Session"/>
+			<item value="C:\KHBackEnd\Cookie"/>
+			<item value="C:\KHBackEnd\Member"/>
 			<item value="C:\KHBackEnd\JSP"/>
 			<item value="C:\KHBackEnd\listpage"/>
 			<item value="C:\KHBackEnd\Emp"/>
@@ -51,9 +58,17 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\KHBackEnd\file"/>
 			<item value="C:\KHBackEnd\Emp"/>
 			<item value="C:\KHFrontEnd\Dept"/>
 			<item value="C:\KHFrontEnd\Test"/>
 		</list>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="706"/>
+		<item key="DIALOG_Y_ORIGIN" value="142"/>
+		<item key="DIALOG_WIDTH" value="525"/>
+		<item key="DIALOG_HEIGHT" value="580"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 </section>
