@@ -4,7 +4,6 @@
 <fullyQualifiedTypeName name="service.face.EmpService"/>
 <fullyQualifiedTypeName name="dto.Emp"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="java.sql.Date"/>
 <fullyQualifiedTypeName name="service.MemberServiceImpl"/>
 <fullyQualifiedTypeName name="dto.Member"/>
 <fullyQualifiedTypeName name="service.MemberService"/>
@@ -15,8 +14,6 @@
 <fullyQualifiedTypeName name="org.apache.commons.fileupload.FileItem"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="dto.ParamData"/>
-<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="com.sun.corba.se.pept.transport.ConnectionCache"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
@@ -25,18 +22,23 @@
 <fullyQualifiedTypeName name="dto.File"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.apache.tomcat.util.http.fileupload.servlet.ServletFileUpload"/>
-<fullyQualifiedTypeName name="com.oreilly.servlet.MultipartRequest"/>
-<fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
-<fullyQualifiedTypeName name="com.oreilly.servlet.multipart.FileRenamePolicy"/>
-<fullyQualifiedTypeName name="com.oreilly.servlet.multipart.DefaultFileRenamePolicy"/>
 <fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="dto.UploadFile"/>
-<fullyQualifiedTypeName name="service.impl.FileServiceImpl"/>
-<fullyQualifiedTypeName name="service.face.FileService"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="dbutil.JDBCTemplate"/>
 <fullyQualifiedTypeName name="javax.servlet.Filter"/>
 <fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
 <fullyQualifiedTypeName name="javax.security.auth.message.callback.PrivateKeyCallback.Request"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="com.sun.xml.internal.bind.CycleRecoverable.Context"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
+<fullyQualifiedTypeName name="com.oreilly.servlet.multipart.FileRenamePolicy"/>
+<fullyQualifiedTypeName name="com.oreilly.servlet.multipart.DefaultFileRenamePolicy"/>
+<fullyQualifiedTypeName name="com.oreilly.servlet.MultipartRequest"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="dto.FileUpload"/>
+<fullyQualifiedTypeName name="service.face.FileService"/>
+<fullyQualifiedTypeName name="service.impl.FileServiceImpl"/>
 </qualifiedTypeNameHistroy>
