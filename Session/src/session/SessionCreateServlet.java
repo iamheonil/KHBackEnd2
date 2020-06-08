@@ -25,10 +25,15 @@ public class SessionCreateServlet extends HttpServlet {
 		HttpSession session = request.getSession();
 
 		// 세션 정보 저장
-		session.setAttribute("loginUser", "홍길동");
+		session.setAttribute("test", "홍길동");
+		
+		// 세션 유지시간 변경하기
+//		session.setMaxInactiveInterval(0); // 0 은 무한
+//		session.setMaxInactiveInterval(5); // 5초
+		session.setMaxInactiveInterval(1 * 60 * 60); // 1시간
 
 		// View 지정하기
-		request.getRequestDispatcher("/WEB-INF/views/logout.jsp").forward(request, response);
+		request.getRequestDispatcher("/WEB-INF/views/session/view.jsp").forward(request, response);
 		
 		
 	}
