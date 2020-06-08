@@ -1,3 +1,4 @@
+<%@page import="java.util.Date"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -10,7 +11,7 @@
 <script type="text/javascript">
 	function del() {
 		
-		location.href = "/logout/delete";
+		location.href = "/session/delete";
 	}
 </script>
 
@@ -19,8 +20,13 @@
 
 	<h1>세션 확인 페이지</h1>
 	<hr>
+	
+	Session ID : <%=session.getId() %> <br><br>
+	Session CreationTime : <%=new Date(session.getCreationTime()) %> <br><br>
+	Session LastAccessedTime : <%=new Date(session.getLastAccessedTime()) %> <br><br>
+	Session MaxInactiveInterval : <%=session.getMaxInactiveInterval() %> <br><br>
+	Session isNew : <%=session.isNew() %> <br><br>
 
-	test : ${test }
 	<br>
 
 	<hr>
