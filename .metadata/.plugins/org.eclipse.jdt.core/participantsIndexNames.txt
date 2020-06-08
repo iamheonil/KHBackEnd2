@@ -1,6 +1,8 @@
 INDEX VERSION 1.131
 C:\KHBackEnd\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\548955191.index
 \Fileupload\src
+C:\KHBackEnd\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\897786924.index
+\Ajax\src
 C:\KHBackEnd\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2192370431.index
 \Cookie\src
 C:\KHBackEnd\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3415616518.index
