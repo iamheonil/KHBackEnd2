@@ -1,7 +1,5 @@
 INDEX VERSION 1.4+C:\KHBackEnd\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-2143637096.index
-897786924.index
-2602738445.index
 2131822481.index
 601512045.index
 1662736947.index
+2143637096.index
