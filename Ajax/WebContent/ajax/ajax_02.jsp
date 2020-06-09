@@ -99,7 +99,7 @@ function send() {
 	// - - - AJAX 요청 보내기 - - -
 	//XHR 객체가 서버로 요청메시지를 전송함
 	//	-> 서버로 데이터를 전송함
-	xmlHttp.send(null);	
+	xmlHttp.send(null);
 	// - - - - - - - - - - - - - - -
 	
 }
