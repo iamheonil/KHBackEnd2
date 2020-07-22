@@ -12,4 +12,4 @@ Java BackEnd단 구현 부분을 배우며 공부했던 소스들과 Test 대비
 
 > ## 배웠던 주요 기능들
 
-MVC 패턴, Ajax, jSON, GSON, Naver SmartEditor, Commons FileUpload
+MVC 패턴, JSP, Ajax, jSON, GSON, Naver SmartEditor, Commons FileUpload
